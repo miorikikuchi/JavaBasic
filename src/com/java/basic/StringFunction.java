@@ -35,7 +35,11 @@ public class StringFunction {
 		System.out.println("(5)");
 		System.out.println(String.join(",", letter6));
 		System.out.println(String.join("", letter6));
+		
 		System.out.println("(6)");
+		str2.substring(0,4);
+		str2.substring(4);
+		
 		System.out.println("(7)");
 		System.out.println("(8)");
 		System.out.println("(9)");

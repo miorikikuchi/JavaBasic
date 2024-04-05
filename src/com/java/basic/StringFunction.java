@@ -12,11 +12,19 @@ public class StringFunction {
 		System.out.println(str1.length());
 		System.out.println(str2.length());
 		System.out.println(str3.length());
+		
+		System.out.println("(2)");
 		System.out.println(str2.equals("yakisoba"));
 		System.out.println(str2.equals("yaki"+str1));
 		
-		System.out.println("(2)");
 		System.out.println("(3)");
+		String str4 = "";
+		String str5 = null;
+		System.out.println(str4 == null);
+		System.out.println(str5 == null);
+		System.out.println(str4.isEmpty());
+		//System.out.println(str5.isEmpty());
+		
 		System.out.println("(4)");
 		System.out.println("(5)");
 		System.out.println("(6)");

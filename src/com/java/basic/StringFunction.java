@@ -26,6 +26,12 @@ public class StringFunction {
 		//System.out.println(str5.isEmpty());
 		
 		System.out.println("(4)");
+		String str6 ="I like elephant better than giraffe.";
+		String[]  letter6 =str6.split("");
+		for(String word : letter6) {
+			System.out.println("word:"+word);
+		}
+		
 		System.out.println("(5)");
 		System.out.println("(6)");
 		System.out.println("(7)");

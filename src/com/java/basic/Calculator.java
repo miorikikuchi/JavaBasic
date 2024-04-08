@@ -6,6 +6,7 @@ public class Calculator {
 		double result;
 		String name;
 		static int countCalcu;
+		static final String PRODUCT_NAME ="SPECIAL CALCULATOR XXX";
 		public Calculator(String name) {
 			this.name =name;
 			countCalcu++;

@@ -4,6 +4,9 @@ public class Calculator {
 
 	
 		double result;
+		public Calculator(int x) {
+			this.result =x;
+		}
 		public void init(int a) {
 			this.result = a;
 		}

@@ -45,13 +45,17 @@ public class StringFunction {
 		System.out.println(str3.contains("yaki"));
 		System.out.println(str2.indexOf("soba"));
 		System.out.println(str3.indexOf("yaki"));
-		System.out.println(str3.indexOf("a"));
 		System.out.println(str2.startsWith("soba"));
 		System.out.println(str2.endsWith("soba"));
 		System.out.println(str3.startsWith("soba"));
 		System.out.println(str3.endsWith("soba"));
 		
 		System.out.println("(8)");
+		String str7 = "I,like,elephant,better,than,giraffe";
+		System.out.println(str7.replace(","," "));
+		String str8 = "the cat is pretty";
+		System.out.println(str8.replace("cat","cap"));
+		
 		System.out.println("(9)");
 
 	}

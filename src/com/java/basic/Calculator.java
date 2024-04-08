@@ -5,8 +5,10 @@ public class Calculator {
 	
 		double result;
 		String name;
+		static int countCalcu;
 		public Calculator(String name) {
 			this.name =name;
+			countCalcu++;
 		}
 		public Calculator(String name,int x) {
 			this(name);

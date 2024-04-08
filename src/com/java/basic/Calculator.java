@@ -3,8 +3,8 @@ package com.java.basic;
 public class Calculator {
 
 	
-		double result;
-		String name;
+		private double result;
+		private String name;
 		static int countCalcu;
 		static final String PRODUCT_NAME ="SPECIAL CALCULATOR XXX";
 		static final int COST = 105;

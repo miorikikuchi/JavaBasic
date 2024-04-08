@@ -4,8 +4,17 @@ public class Calculator {
 
 	
 		double result;
-		public Calculator(int x) {
-			this.result =x;
+		String name;
+		public Calculator(String name) {
+			this.name =name;
+		}
+		public Calculator(String name,int x) {
+			this(name);
+			this.result = x;
+		}
+		public Calculator(String name,double x) {
+			this(name);
+			this.result = x;
 		}
 		public void init(int a) {
 			this.result = a;
@@ -27,6 +36,9 @@ public class Calculator {
 		}
 		public double getResult() {
 			return this.result;
+		}
+		public String getName() {
+			return this.name;
 		}
 
 	}

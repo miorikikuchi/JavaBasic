@@ -57,7 +57,10 @@ public class StringFunction {
 		System.out.println(str8.replace("cat","cap"));
 		
 		System.out.println("(9)");
-
+		String format = "私の名前は、%sです。年齢は、%dです。";
+		System.out.println(String.format(format, "Mike",18));
+		System.out.println(String.format(format, "Cathy",20));
+		System.out.println(String.format(format, "Jon",25));
 	}
 
 }

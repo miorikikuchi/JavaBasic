@@ -7,6 +7,7 @@ public class Calculator {
 		String name;
 		static int countCalcu;
 		static final String PRODUCT_NAME ="SPECIAL CALCULATOR XXX";
+		static final int COST = 105;
 		public Calculator(String name) {
 			this.name =name;
 			countCalcu++;
@@ -18,6 +19,9 @@ public class Calculator {
 		public Calculator(String name,double x) {
 			this(name);
 			this.result = x;
+		}
+		public static int getCostCalcu() {
+			return countCalcu * COST;
 		}
 		public void init(int a) {
 			this.result = a;

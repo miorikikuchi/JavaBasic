@@ -20,6 +20,6 @@ public class CellPhone {
 	}
 
 	public String getOwnerName() {
-		return ownerName;
+		return this.ownerName;
 	}
 }

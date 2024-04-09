@@ -4,7 +4,6 @@ public class ObjectMain3 {
 
 	public static void main(String[] args) {
 		Dolphin dolphin = new Dolphin();
-		
 		Giraffe giraffe = new Giraffe();
 		
 		System.out.println(Dolphin.ANIMAL_NAME+"は、"+dolphin.move());

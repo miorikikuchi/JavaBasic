@@ -3,6 +3,10 @@ package com.java.basic;
 public class Dolphin extends Mammalian {
 	public static final String ANIMAL_NAME = "イルカ";
 	
+	Dolphin() {
+		super(ANIMAL_NAME);
+	}
+	
 	@Override
 	public String move() {
 		return "泳ぎます。";
@@ -12,9 +16,4 @@ public class Dolphin extends Mammalian {
 	public String eat() {
 		return "小魚を食べます。";
 	}
-	@Override
-	public String respiration() {
-		return "肺呼吸します。";
-	}
-
 }

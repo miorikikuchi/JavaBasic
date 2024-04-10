@@ -18,6 +18,8 @@ public class JavaException {
 		} catch (ArithmeticException e) {
 			System.out.println("ArithmeticExceptionエラーが発生しました。");
 			e.printStackTrace();
+		}finally {
+			System.out.println("データを保存しました。");
 		}
 	}
 

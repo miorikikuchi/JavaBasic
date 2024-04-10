@@ -3,7 +3,7 @@ package com.java.basic;
 public class JavaException {
 
 	public static void main(String[] args) {
-		String str = null;
+		String str = "abcdefg";
 		int a = 10;
 		int b = 2;
 		int result;

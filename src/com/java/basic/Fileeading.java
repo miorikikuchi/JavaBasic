@@ -6,17 +6,15 @@ import java.io.IOException;
 public class Fileeading {
 
 	public static void main(String[] args) {
-		try {
-			FileReader fr = new FileReader("C:¥¥java-basic\\\\test\\\\HelloWorld.txt");
+		try (FileReader fr = new FileReader("C:¥¥java-basic\\\\test\\\\HelloWorld.txt");){
 			int i =fr.read();
 			while(i!= -1) {
 				char c =(char) i;
 				System.out.print(c);
 				i=fr.read();
 			}
-			fr.close();
-		} catch(IOException e) {
-			e.printStackTrace();
+				}catch (IOException e) {
+					e.printStackTrace();
 		}
 
 	}

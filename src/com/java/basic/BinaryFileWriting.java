@@ -16,7 +16,9 @@ public class BinaryFileWriting {
 		
 		try(FileOutputStream fos = new FileOutputStream("C¥¥java-basic\\test\\abc.dat");){
 			byte[] data = {0b1111111,0b1010101,0b0000111};
-			
+			fos.write(data);
+		}catch(IOException e) {
+			e.printStackTrace();
 		}
 
 	}
